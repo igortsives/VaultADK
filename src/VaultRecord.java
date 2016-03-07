@@ -6,7 +6,16 @@
  */
 public class VaultRecord {
 
+    private String id;
+    private String objectName;
+
     public VaultRecord(String objectName) {
+        this.objectName = objectName;
+    }
+
+    public VaultRecord(VaultRecordRef recordRef) {
+        this.id = recordRef.getId();
+        this.objectName = recordRef.getObjectName();
     }
 
     /**
@@ -34,7 +43,7 @@ public class VaultRecord {
     public void setValue(String fieldName, Object value) throws OperationNotAllowedException
     {
 
-    };
+    }
 
     /**
      * Retrieves the name of the object this record is an instance of
