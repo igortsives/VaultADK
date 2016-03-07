@@ -57,19 +57,6 @@ public class Vault {
     }
 
     /**
-     * Creates VQLQuery object that can be executed by VQL
-     *
-     * @param   vqlQuery a string representing VQL statement (query)
-     * @return  the VQLQuery containing the result of the operation
-     * @exception VQLException if an exception occurs while generating the VQLQuery
-     * @see     VQLQuery
-     */
-    public static VQLQuery createQuery(String vqlQuery) throws VQLException
-    {
-        return null;
-    }
-
-    /**
      * Executes VQL Query
      *
      * @param       vqlQuery a VQL statement (query)

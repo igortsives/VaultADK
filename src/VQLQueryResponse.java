@@ -70,9 +70,9 @@ public class VQLQueryResponse extends VaultResponse {
     }
 
     /**
-     * Returns the list of records in the page
+     * Returns the records in the current page
      *
-     * @return a list of records in the page
+     * @return a list of records in current page
      */
     @Override
     public List<VaultRecord> getData()

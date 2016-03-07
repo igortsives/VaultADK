@@ -16,7 +16,6 @@ public class VaultObjectMetadata {
      * @param <T> type of data requested
      * @return the value of the specified field
      */
-
     public <T> T getValue(String fieldName, Class<T> returnType)
     {
         return null;
